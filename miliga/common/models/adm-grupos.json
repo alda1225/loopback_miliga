@@ -1,0 +1,40 @@
+{
+  "name": "adm_grupos",
+  "idInjection": false,
+  "options": {
+    "postgres": {
+      "schema": "adm",
+      "table": "adm_grupos"
+    }
+  },
+  "properties": {
+    "idgrupo": {
+      "type": "number"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "fecha_alta": {
+      "type": "date"
+    },
+    "usuario_alta": {
+      "type": "string"
+    },
+    "fecha_baja": {
+      "type": "date"
+    },
+    "usuario_baja": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

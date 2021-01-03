@@ -33,6 +33,14 @@
   },
   "Role": {
     "dataSource": "db",
-    "public": false
+    "public": true
+  },
+  "adm_usuarios": {
+    "dataSource": "bdp",
+    "public": true
+  },
+  "adm_grupos": {
+    "dataSource": "bdp",
+    "public": true
   }
 }

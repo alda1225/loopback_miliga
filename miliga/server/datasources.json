@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "bdp": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "postgres://postgres:postgres@localhost/bdp",
+    "database": "bdp",
+    "password": "postgres",
+    "name": "bdp",
+    "user": "postgres",
+    "connector": "postgresql"
   }
 }

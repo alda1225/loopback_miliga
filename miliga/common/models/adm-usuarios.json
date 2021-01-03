@@ -1,0 +1,22 @@
+{
+  "name": "adm_usuarios",
+  "plural": "adm_users",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true,
+    "postgres": {
+      "schema": "adm",
+      "table": "adm_usuarios"
+    }
+  },
+  "properties": {
+    "nombre": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
